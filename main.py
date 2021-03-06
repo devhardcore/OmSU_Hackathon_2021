@@ -5,7 +5,7 @@ import logger
 
 def main():
     while True:
-        logger.show_msg("Hello world!")
+        logger.show_msg("жумайсынба")
         sleep(6)
 
 
