@@ -1,0 +1,1 @@
+hackathon: python3 main.py
