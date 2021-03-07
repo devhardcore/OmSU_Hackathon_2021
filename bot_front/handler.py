@@ -21,7 +21,7 @@ class CreateStates(BaseStateGroup):
     END_TIME_STATE = 4
 
 
-@bot.on.message(text=["!start", "start", "help", "!help", "привет", "Привет"])
+@bot.on.message(text=["!start", "start", "help", "!help", "привет", "Привет", "Начать", "начать", "Старт", "старт"])
 async def greeting(message: Message):
     await message.answer(message="Ниже появились кнопки. Ты можешь выбрать: 'Создать' или 'Посмотреть все'",
                          keyboard=keyboard.get_json())
