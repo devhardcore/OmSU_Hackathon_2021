@@ -1,14 +1,5 @@
 eventbrite==3.3.5
-loguru==0.5.3
-multidict==5.1.0
-pydantic==1.8.1
-pytz==2021.1
 requests==2.25.1
 typing-extensions==3.7.4.3
-urllib3==1.26.3
-uvloop
-vbml==1.1
 vkbottle @ https://github.com/timoniq/vkbottle/archive/master.zip
 vkbottle-types==0.1.24
-watchgod==0.7
-yarl==1.6.3
