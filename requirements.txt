@@ -3,3 +3,4 @@ requests==2.25.1
 typing-extensions==3.7.4.3
 vkbottle @ https://github.com/timoniq/vkbottle/archive/master.zip
 vkbottle-types==0.1.24
+pytz

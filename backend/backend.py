@@ -27,10 +27,10 @@ def set_tickets(service: Eventbrite, event_id: int, capacity: int):
 
 def push_event(service, name, start, end, summary, count):
     local = pytz.timezone("Asia/Omsk")
-    org_id = get_organization_id(service)
     start_obj = datetime.datetime.strptime(start, '%d-%m-%Y %H:%M')
-    end_obj = datetime.datetime.strptime(end, '%d-%m-%Y %H:%M')
     utc_start = local.localize(start_obj, is_dst=None)
+    org_id = get_organization_id(service)
+    end_obj = datetime.datetime.strptime(end, '%d-%m-%Y %H:%M')
     utc_end = local.localize(end_obj, is_dst=None)
     utc_start = utc_start.astimezone(pytz.utc)
     utc_end = utc_end.astimezone(pytz.utc)
