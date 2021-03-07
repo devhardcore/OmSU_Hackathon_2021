@@ -1,0 +1,6 @@
+loguru
+uvloop
+
+
+eventbrite~=3.3.5
+vkbottle~=3.0

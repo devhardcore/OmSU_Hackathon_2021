@@ -1,13 +1,4 @@
-from time import sleep
-
-import logger
-
-
-def main():
-    while True:
-        logger.show_msg("жумайсынба")
-        sleep(6)
-
+from bot_front.handler import bot
 
 if __name__ == '__main__':
-    main()
+    bot.run_forever()
