@@ -6,5 +6,5 @@ def event_to_str(event: Event):
                       f"Описание события: {event.summary}",
                       f"Количество мест: {event.capacity}",
                       f"Дата начала: {event.start.get('local')}",
-                      f"Дата конца мероприятия: {event.start.get('local')}"
+                      f"Дата конца мероприятия: {event.end.get('local')}"
                       ])

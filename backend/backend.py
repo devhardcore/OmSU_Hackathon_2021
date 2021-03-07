@@ -52,6 +52,7 @@ def push_event(service, name, start, end, summary, count):
             "currency": "USD"
         }
     })
+    print(ret)
     event_id = ret.get("id")
     set_tickets(service, event_id, ret.get("capacity"))
     logging.info(f"Event was created! {ret}")
