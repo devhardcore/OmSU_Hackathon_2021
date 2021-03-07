@@ -3,7 +3,6 @@ async-timeout==3.0.1
 attrs==20.3.0
 certifi==2020.12.5
 chardet==4.0.0
-choicelib==0.1.4
 contextvars==2.4
 eventbrite==3.3.5
 idna==2.10
